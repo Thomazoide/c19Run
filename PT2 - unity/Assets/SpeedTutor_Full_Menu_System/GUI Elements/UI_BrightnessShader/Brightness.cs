@@ -14,6 +14,7 @@ public class Brightness : MonoBehaviour
     [Range(0.5f, 2f)]
     public float brightness = 1f;
 
+    [Obsolete]
     void Start()
     {
         // Disable if we don't support image effects
